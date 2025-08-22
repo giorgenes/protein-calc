@@ -6,7 +6,8 @@ document.addEventListener('DOMContentLoaded', function() {
         { id: 'egg', name: 'Egg (dozen)', protein: 78, calories: 840 },
         { id: 'fish', name: 'Fish (100g)', protein: 22, calories: 206 },
         { id: 'chicken', name: 'Chicken (100g)', protein: 31, calories: 165 },
-        { id: 'pork', name: 'Pork (100g)', protein: 26, calories: 242 }
+        { id: 'pork', name: 'Pork (100g)', protein: 26, calories: 242 },
+        { id: 'whey', name: 'Whey (1 scoop)', protein: 24, calories: 129 }
     ];
 
     // Current quantities - will be initialized dynamically
