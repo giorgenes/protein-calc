@@ -1,0 +1,142 @@
+/* Protein Calculator Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h2 {
+    color: #555;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+/* Target protein section */
+.target-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+}
+
+.target-section label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.target-section input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.target-section input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+/* Protein sources section */
+.protein-sources {
+    margin-bottom: 30px;
+}
+
+.protein-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+    border: 1px solid #e9ecef;
+}
+
+.item-name {
+    font-weight: bold;
+    color: #333;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-minus, .btn-plus {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-minus {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-minus:hover {
+    background-color: #c82333;
+}
+
+.btn-plus {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-plus:hover {
+    background-color: #218838;
+}
+
+.quantity {
+    min-width: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Total section */
+.total-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #e7f3ff;
+    border-radius: 6px;
+    border: 2px solid #007bff;
+}
+
+.total-section h2 {
+    margin: 0 0 10px 0;
+    color: #007bff;
+    font-size: 24px;
+}
+
+.progress-section {
+    color: #666;
+    font-size: 14px;
+} 
